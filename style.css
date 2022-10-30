@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Baloo 2', cursive;
+    background-image: URL("https://i.imgur.com/Cv4tB26.png");
+}
+
+nav, img, ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img {
+    width: 25vw;
+    max-width: 100px;
+}
+ul {
+    color: white;
+    list-style: none;
+    font-size: 2rem;
+    margin-right: 1%;
+}
+li {
+    margin: 1vw;
+}
+
+.container {
+    width: 100vw;
+    height: 800px;
+}
+.beginning {
+    display: flex;
+    background-color: #d1f8ff67;
+    padding: 0 10%;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.beginning1 img, .beginning2 img {
+    width: 100%;
+}
+.villagers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 5% 5%;
+}
+.c1, .c3, .c4, .c5 {
+    background-color: #d1f8ff67;
+    width: 50%;
+    height: 125px;
+}
+.c2 {
+    width: 100%;
+    height: 125px;
+    order: 1;
+    display: flex;
+}
+.c6 {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    order: 2;
+}
+.c7 {
+    background-color: #d1f8ff67;
+    width: 100%;
+    height: 125px;
+}
+.villagers div img {
+    margin: 0 auto;
+}
+.villagers .c6 img {
+    margin: 0 0 0 auto;
+}
+
+ 
+/* .c5 {
+    flex-grow: 1;
+} */
+.end {
+    display: flex;
+    background-color: #d1f8ff67;
+    width: 100%;
+    padding: 2% 5% 5% 5%;
+}
+.end img {
+    width: 100%;
+    border-radius: 10px
+}
+
+.c1 p {
+    display: none;
+}
+
+
+
+@media (min-width: 600px) {
+    .beginning {
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+    }
+    .beginning img {
+        width: 100%;
+    }
+    .villagers {
+        justify-content: center;
+    }
+    .c1, .c5 {
+        width: 30%;
+        height: auto;
+    }
+    .c2 {
+        flex-direction: column;
+        width: 40%;
+        height: auto;
+        order: 1;
+    }
+    .c3, .c4 {
+        width: 100%;
+    }
+    .c5 {
+        order: 2;
+    }
+    .c6 {
+        width: 100%;
+        order: 3;
+    }
+    .villagers .c3 img {
+        margin: 0 0 0 auto;
+    }
+    .villagers .c4 img {
+        margin: 0 auto 0 0 ;
+    }
+}
+
+@media (min-width: 800px) {
+    .beginning {
+        justify-content: center;
+    }
+    .beginning img {
+        max-width: 300px;
+    }
+    .villagers {
+        justify-content: center;
+        max-width: 800px;
+        padding: 2% 2%;
+        margin: 0 auto;
+    }
+    .end {
+        justify-content: center;
+        padding: 0% 5% 1% 5%;
+    }
+    .end img {
+        max-width: 600px;
+    }
+}
+
+
+
+
+/* display: none; */
