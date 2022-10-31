@@ -77,9 +77,6 @@ li {
 .villagers div img {
     margin: 0 auto;
 }
-.villagers .c6 img {
-    margin: 0 0 0 auto;
-}
 
  
 /* .c5 {
@@ -96,11 +93,8 @@ li {
     border-radius: 10px
 }
 
-.c1 p, .c3 p, .c4 p, .c5 p {
+.c1 p, .c3 p, .c4 p, .c5 p, .c7 p {
     display: none;
-}
-a {
-    width: 5%;
 }
 
 
@@ -137,11 +131,8 @@ a {
         width: 100%;
         order: 3;
     }
-    .villagers .c3 img {
-        margin: 0 0 0 auto;
-    }
-    .villagers .c4 img {
-        margin: 0 auto 0 0 ;
+    .villagers .c1 img, .villagers .c5 img {
+        margin: 7vh auto;    
     }
 }
 
