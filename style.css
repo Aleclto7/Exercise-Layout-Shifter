@@ -96,8 +96,11 @@ li {
     border-radius: 10px
 }
 
-.c1 p {
+.c1 p, .c3 p, .c4 p, .c5 p {
     display: none;
+}
+a {
+    width: 5%;
 }
 
 
